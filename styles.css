@@ -30,6 +30,8 @@ li {
     flex: 1;
 }
 
+
+
 .row {
     width: 100%;
     max-width: 800px;
@@ -38,6 +40,10 @@ li {
 
 .text--purple {
     color: #6030b1;
+}
+
+section:nth-child(even) {
+    background-color: #f8f8f8;
 }
 
 /* Navigation bar */
@@ -118,8 +124,8 @@ nav {
     width: 100%;
 
     /* Improving my own picture */
-    transform: scale(1.5);
-    padding-top: 8px;
+    transform: scale(1);
+    padding-top: 0cm;
 
 }
 
@@ -148,4 +154,5 @@ nav {
 
 .about-me__img {
     width: 100%;
+    padding-top: 2cm;
 }
